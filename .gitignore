@@ -1,0 +1,52 @@
+# 创建 .gitignore 文件（复制以下内容）
+cat > .gitignore << EOF
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# YOLOv8 权重/日志/输出
+*.pt
+*.onnx
+*.engine
+runs/
+logs/
+cache/
+
+# 系统文件
+.DS_Store
+*.swp
+*.swo
+EOF
+
+
+# 压缩包（核心过滤项）
+*.zip
+*.rar
+*.7z
+
+
+# 数据文件
+hand_analysis_results/
+hand_finish/
+hand_segment_result/
+hand_shake/
+handdata/
+data/
+handdata_single/
+handshake/
+process_finish/
+test_thresh5_duration5/
+testhandshake/
+testhanshake/
+thresh5_duration5/
+
+
+handcode/runs/
+handcode/debug_results/
+hand_shake/
+handcode/*.csv
+handcode/*.pt
+
+EOF
