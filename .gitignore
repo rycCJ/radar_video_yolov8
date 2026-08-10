@@ -42,11 +42,11 @@ testhandshake/
 testhanshake/
 thresh5_duration5/
 
-
-# handcode/runs/
-# handcode/debug_results/
+handcode/
+handcode/runs/
+handcode/debug_results/
 hand_shake/
-# handcode/*.csv
-# handcode/*.pt
-
+handcode/*.csv
+handcode/*.pt
+handcode/
 EOF
